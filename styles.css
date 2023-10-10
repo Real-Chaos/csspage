@@ -15,6 +15,11 @@ header nav {
   justify-content: space-between;
 }
 
+header h1 {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
 header nav ul {
   display: flex;
   list-style-type: none;
@@ -33,12 +38,138 @@ header nav ul li:hover {
 .top-section-items {
   padding: 5% 0;
   display: flex;
+  padding-top: 70px;
+  gap: 10px;
 }
 
-.top-section h1 {
+.top-section-items h1 {
   font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+  margin-bottom: 15px;
 }
+
+.top-section p {
+  font-size: 18px;
+  color: #E5E7EB;
+
+}
+
+.top-section button {
+  outline: none;
+  border-radius: 5px;
+  background: #3882F6;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+
+
+.top-section-img {
+  border: solid red;
+  width: 100%;
+  
+}
+
+
 
 .top-section-items img {
+  object-fit: cover;
+  width: fit-content !important;
+  height: 300px;
+}
+
+
+section.random-info {
+  padding: 5% 8%;
+}
+
+section.random-info h1 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.random-info-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.random-info-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  
+}
+
+.random-info-card img{
   width: 100%;
+}
+
+
+section.cool-quote {
+  background: #E5E7EB;
+
+}
+
+section.cool-quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  padding: 5% 8%;
+}
+
+section.cool-quote h6 {
+  margin-top: 15px;
+  float: right;
+}
+
+
+.action-call {
+  padding: 5% 8%;
+
+}
+
+.call-banner {
+  background: #3882F6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3% 8%;
+  width: 80%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.call-banner h4 {
+  font-weight: bolder;
+}
+
+.call-banner p {
+  font-size: 12px;
+}
+
+.call-banner button {
+  outline: none;
+  border: solid white;
+  background: none;
+  color: white;
+  padding: 5px 25px;
+  font-weight: bolder;
+}
+
+footer {
+  background-color: #1F2937;
+  text-align: center;
+  padding: 1%;
+  color: white;
 }
